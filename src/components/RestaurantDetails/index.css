@@ -1,0 +1,36 @@
+.restaurant-details-bg-container {
+  width: 100%;
+}
+.restaurant-details-bg-outside-container {
+  width: 100%;
+  max-width: 1000px;
+}
+.large-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-details-loader {
+  min-height: 54vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-details-loader {
+    min-height: 39vh;
+  }
+}
+
+.food-items-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

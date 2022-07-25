@@ -1,0 +1,33 @@
+.margin-space {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .small-devices-item {
+    display: none;
+  }
+}
+
+.price-color {
+  color: #ffa412;
+  font-weight: 700;
+  font-size: 16px;
+}
+.large-devices-item {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .large-devices-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.img-name-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}

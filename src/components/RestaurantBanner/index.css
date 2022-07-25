@@ -1,0 +1,137 @@
+.banner-bg-container {
+  background-image: url('https://res.cloudinary.com/dtlqsvj2k/image/upload/v1658552962/TastyKitchen/Frame_279_sqrs0s.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 230px;
+  padding-bottom: 20px;
+}
+.banner-img {
+  width: 180px;
+  height: 180px;
+  border-bottom-right-radius: 150px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .banner-bg-container {
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .banner-img {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+  }
+}
+.rest-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: inherit;
+  padding-bottom: 22px;
+}
+.name-heading {
+  left: 46.94%;
+  right: 28.33%;
+  top: 7.34%;
+  bottom: 90.83%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.location,
+.cuisine {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.rating-cost-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.rating-container,
+.cost-container {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.rating,
+.cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.cost {
+  margin-left: 0;
+}
+.total-ratings,
+.cost-for-two {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+.rating-outside-container {
+  border-right: 1px solid #ffffff;
+  padding-right: 8px;
+  height: 40px;
+}
+.cost-outside-container {
+  padding-left: 8px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .name-heading {
+    font-size: 36px;
+    line-height: 30px;
+  }
+  .location,
+  .cuisine {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .rating-cost-container {
+    margin-top: 16px;
+  }
+  .rating-container,
+  .cost-container {
+    height: 20px;
+  }
+  .rating-outside-container,
+  .cost-outside-container {
+    height: 45px;
+  }
+  .rating-outside-container {
+    padding-right: 15px;
+  }
+  .cost-outside-container {
+    padding-left: 15px;
+  }
+}
